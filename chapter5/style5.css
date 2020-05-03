@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+header .headline{
+	font-size: 32px;
+}
+
+.nav-list{
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+	border-top: 1px solid gray;		/*分からなかった*/
+	border-bottom: 1px solid gray;	/*分からなかった*/
+}
+
+.nav-list-item{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.main{
+	width: 800px;
+	margin: 50px auto;
+}
+.main-up1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#e6ffe9;
+}
+.main-up2{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#cbffd3;
+}
+.main-up3{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#aeffbd;
+}
+.main-up4{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#93ffab;
+}
+.main-center1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#f3ffd8;
+}
+.main-center2{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#edffbe;
+}
+.main-center3{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#e9ffa5;
+}
+.main-center4{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#e4ff8d;
+}
+.main-down1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#d9e5ff;
+}
+.main-down2{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#bad3ff;
+}
+.main-down3{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#a4c6ff;
+}
+.main-down4{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:#8eb8ff;
+}
+
+footer{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	background-color: #848282;
+}
+.footer-text{
+	color: #fff;
+}
