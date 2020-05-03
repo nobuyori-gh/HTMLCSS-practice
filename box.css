@@ -1,0 +1,21 @@
+.box1{
+	width: 300px;
+	height: 300px;
+	/*演習問題*/
+	background-color: #00FF00;
+	padding: 300px;
+	margin-top: 50px;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: solid ;
+	border-top-width: 5px;
+	border-top-color: yellow;
+	border-right-width: 10px;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	;
+}
