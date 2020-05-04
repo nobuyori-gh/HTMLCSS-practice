@@ -14,18 +14,32 @@ a{
 	display: block;
 	clear: both;
 }
-
-header{
-		width: 90;
-		padding: 15px 0;
-		margin: 0 auto;
-		text-align: center;
+header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
-header .headline{
-	fontsize: 32px;
-	padding: 15px 0;
+header {
+    position: relative; /*socialの基準位置を相対位置へ変更*/
+	width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
 }
+
+header .headline {
+    font-size: 32px;
+}
+.social {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+.social i {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .nav-list{
 	text-align: center;
 	padding: 10px 0;
